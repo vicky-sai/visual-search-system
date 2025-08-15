@@ -4,7 +4,8 @@ Vicky Visual Search is an enterprise-grade, fully containerized visual search sy
 
 The entire application stack (Frontend, Backend, Vector Database, and AI Model Server) is orchestrated with Docker Compose, featuring a **fully automated setup process**.
 
-![Vicky Visual Search UI Screenshot](https://i.imgur.com/xO7vJdE.png)
+![Uploading image.png…]()
+
 
 ---
 
