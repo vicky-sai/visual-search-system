@@ -88,7 +88,8 @@ Once the initialization is complete, the system is fully operational.
 To stop all running containers, run the following command from the project's root directory:
 
 ```bash
-docker-compose down```
+docker-compose down
+```
 *This will stop and remove the containers, but your downloaded models and image data will be preserved in Docker volumes for the next startup.*
 
 ---
