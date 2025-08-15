@@ -1,0 +1,31 @@
+# This file tells Docker which files and folders to ignore when
+# building the image for the 'backend' service.
+
+# Ignore the Python virtual environment
+.venv
+venv
+env
+
+# Ignore Python bytecode and cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the data and storage folders. These are managed by VOLUMES,
+# they should NEVER be part of the image itself. This is the most
+# important rule for this project.
+data/
+storage/
+
+# Ignore local configuration and secrets
+.env
+*.env
+
+# Ignore IDE and editor specific files
+.vscode
+.idea
+
+# Ignore the master startup script from the root
+# (It's not needed inside the container)
+start.sh

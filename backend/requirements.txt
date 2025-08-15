@@ -1,0 +1,19 @@
+# Web Framework & Server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# AI & Machine Learning
+chromadb
+sentence-transformers
+torch
+ollama
+
+# Utilities
+pydantic
+pydantic-settings
+python-dotenv
+Pillow
+pandas
+requests
+tqdm

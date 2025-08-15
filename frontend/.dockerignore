@@ -1,0 +1,23 @@
+# This file tells Docker which files and folders to ignore when
+# building the image for the 'frontend' service.
+
+# Ignore the massive node_modules folder. Dependencies will be installed
+# inside the container during the build.
+node_modules
+
+# Ignore build output and cache from local development
+dist
+.vite
+
+# Ignore local configuration and secrets
+.env
+*.env
+
+# Ignore IDE and editor specific files
+.vscode
+.idea
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
